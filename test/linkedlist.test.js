@@ -80,7 +80,7 @@ const LinkedList = require('../src/linkedlist')
 
             list.removeAt(2)
 
-            expect(list.indexOf(2)).to.equal(4)
+            expect(list.indexOf(4)).to.equal(2)
         });
     });
 
